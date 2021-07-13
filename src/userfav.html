@@ -12,8 +12,7 @@
 <body>
     <header>
         <div>
-            <img class=" travel " src="../img/rana-sawalha-W_-6PWGbYaU-unsplash.jpg " alt="Travel" width="1000"
-                height="600 ">
+            <img class=" travel " src="../img/rana-sawalha-W_-6PWGbYaU-unsplash.jpg " alt="Travel" width="1000" height="600 ">
         </div>
         <div>
             <h1 class="centered ">OUR FAVORITE VACATIONS</h1>
@@ -32,31 +31,35 @@
     </header>
 
     <!-- Form -->
-    <div class="UserFav " id="user ">
-        <h3 class="user form ">What is your favorite vacation spot?</h3>
+    <div class="UserFav " id="user">
+        <h3 class="user form">What is your favorite vacation spot?</h3>
         <hr>
-        <p>We love going to new vacation spots. Tell us your favorite city to visit and we will display the current
-            weather from what you submit.
+        <p>We love going to new vacation spots. Tell us your favorite city to visit and we will display the current weather from what you submit.
         </p>
-
-        <form action="/action_page.php " target="_blank ">
-            <div class="user-section ">
-                <label>City</label>
-                <input class="user page board " type="text " required name="user ">
-            </div>
-            <div class="user-section ">
-                <label>State</label>
-                <input class="user page board " type="text " required name="where ">
-            </div>
-            <div class="user-section ">
-                <label>First Name</label>
-                <input class="user page board " required name="more where ">
-            </div>
-            <button type="submit ">Submit</button>
-        </form><br>
-
-
     </div>
+    <div>
+        <form>
+            <div class="user-section">
+                <label>City</label>
+                <input class="city" type="text" required name="user">
+            </div>
+            <div class="user-section">
+                <label>State</label>
+                <input class="state" type="text " required name="where">
+            </div>
+            <div class="user-section">
+                <label>First Name</label>
+                <input class="userName" required name="more where">
+            </div>
+            <button class="submit">Submit</button>
+        </form><br>
+    </div>
+
+    <div>
+        <h4>Your Destination Forcast</h4>
+        <p class="forcast"></p>
+    </div>
+
 
 </body>
 
