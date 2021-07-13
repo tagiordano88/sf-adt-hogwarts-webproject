@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>User Vacations</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../css/main.css">
+
+<head>
+    <title>User Vacations</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <script defer src="../scripts/main.js"></script>
+</head>
 
 <body>
     <header>
         <div>
-            <img class=" travel " src=" /img/rana-sawalha-W_-6PWGbYaU-unsplash.jpg " alt="Travel " width="1000 " height="600 ">
+            <img class=" travel " src="../img/rana-sawalha-W_-6PWGbYaU-unsplash.jpg " alt="Travel" width="1000"
+                height="600 ">
         </div>
         <div>
             <h1 class="centered ">OUR FAVORITE VACATIONS</h1>
@@ -16,12 +21,12 @@
 
         <!-- Navbar (placed at the bottom of the header image) -->
 
-        <ul class="nav ">
-            <li><a href="index.html ">Home</a></li>
-            <li><a href="chuck.html ">Chuck</a></li>
-            <li><a href="lori.html ">Lori</a></li>
-            <li><a href="tiffany.html ">Tiffany</a></li>
-            <li><a href="userfav.html ">User Favorites</a></li>
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chuck.html">Chuck</a></li>
+            <li><a href="lori.html">Lori</a></li>
+            <li><a href="tiffany.html">Tiffany</a></li>
+            <li><a href="userfav.html" class="active">User Favorites</a></li>
         </ul>
 
     </header>
@@ -30,8 +35,8 @@
     <div class="UserFav " id="user ">
         <h3 class="user form ">What is your favorite vacation spot?</h3>
         <hr>
-        <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-            tellus.
+        <p>We love going to new vacation spots. Tell us your favorite city to visit and we will display the current
+            weather from what you submit.
         </p>
 
         <form action="/action_page.php " target="_blank ">
@@ -44,7 +49,7 @@
                 <input class="user page board " type="text " required name="where ">
             </div>
             <div class="user-section ">
-                <label>Attraction Site</label>
+                <label>First Name</label>
                 <input class="user page board " required name="more where ">
             </div>
             <button type="submit ">Submit</button>
