@@ -1,0 +1,22 @@
+
+section {
+    text-align: center;
+}
+.places {
+    color: green;
+    }
+section ul {
+        list-style: none;
+        list-style-type: none;  
+        padding: 15px;
+        margin: 0px;
+        text-align:center;
+    }
+    
+section ul li:before {        
+        content:'\25e6';
+        margin-right:5px;    
+        vertical-align:middle;
+        font-size:1.5em;
+        line-height:0;
+    }
