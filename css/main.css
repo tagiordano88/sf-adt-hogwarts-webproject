@@ -33,8 +33,23 @@
             font-size: 16px
         }
         
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        
+        .centered {
+            position: absolute;
+            color: white;
+            top: 25%;
+            text-shadow: black;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
         li a:hover:not(.active) {
-            background-color: #111;
+            background-color: dodgerblue;
         }
         
         .nav {
@@ -58,19 +73,6 @@
         
         .active {
             background-color: #04AA6D;
-        }
-        /* .travel {
-            display: block;
-            margin-top: auto;
-            margin-left: auto;
-        } */
-        
-        .centered {
-            position: absolute;
-            color: white;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
         }
         
         div {
