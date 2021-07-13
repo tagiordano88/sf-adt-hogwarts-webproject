@@ -16,7 +16,7 @@
                 height="500">
         </div>
         <div>
-            <h1 class="centered">OUR FAVORITE VACATIONS</h1>
+            <h1 class="centered">YOUR FAVORITE VACATIONS</h1>
         </div>
 
         <!-- Navbar (placed at the bottom of the header image) -->
@@ -32,28 +32,22 @@
     </header>
 
     <!-- Form -->
-    <div class="UserFav" id="user">
+    <div id="user">
         <h3 class="user form">What is your favorite vacation spot?</h3>
-        <hr>
-        <p>We love going to new vacation spots. Tell us your favorite city to visit and we will display the current
-            weather from what you submit.
+        <!-- <hr> -->
+        <p class="UserFav">We love going to new vacation spots. Tell us your favorite city to visit and we will display the current
+            weather.
         </p>
     </div>
     <div class="user-section">
-        <form onsubmit=" return false ">
-            <di>
-                <label>City</label>
-                <input class="city" type="text" required name="user">
-            </di>
-            <!-- <div class="user-section">
-                <label>State</label>
-                <input class="state" type="text" required name="where">
-            </div> -->
-            <div class="user-section">
-                <label>First Name</label>
-                <input class="userName" required name="more where">
-            </div>
-            <button class="submit">Submit</button>
+        <form onsubmit="return false">
+                <label>City</label><br>
+                <input class="city" type="text" required name="user"><br>
+          
+                <label>First Name</label><br>
+                <input class="userName" type="text"required name="more where">
+
+                <button class="submit" type="submit">Submit</button>
         </form><br>
     </div>
 

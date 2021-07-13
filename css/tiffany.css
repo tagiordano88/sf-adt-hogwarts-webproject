@@ -2,6 +2,10 @@
 section {
     text-align: center;
 }
+
+.diego {
+    background-color: rgb(243, 158, 158);
+}
 .places {
     color: green;
     }
@@ -17,6 +21,6 @@ section ul li:before {
         content:'\25e6';
         margin-right:5px;    
         vertical-align:middle;
-        font-size:1.5em;
+        font-size:2em;
         line-height:0;
     }
