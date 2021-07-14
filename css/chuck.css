@@ -27,7 +27,6 @@ body {
     font-family: Arial;
 }
 
-
 /* Center website */
 
 .main {
@@ -44,14 +43,11 @@ h1 {
     margin: 10px -16px;
 }
 
-
 /* Add padding BETWEEN each column */
 
-.row,
-.row>.column {
+.row, .row>.column {
     padding: 8px;
 }
-
 
 /* Create three equal columns that floats next to each other */
 
@@ -62,7 +58,6 @@ h1 {
     /* Hide all elements by default */
 }
 
-
 /* Clear floats after rows */
 
 .row:after {
@@ -71,7 +66,6 @@ h1 {
     clear: both;
 }
 
-
 /* Content */
 
 .content {
@@ -79,13 +73,11 @@ h1 {
     padding: 10px;
 }
 
-
 /* The "show" class is added to the filtered elements */
 
 .show {
     display: block;
 }
-
 
 /* Style the buttons */
 
