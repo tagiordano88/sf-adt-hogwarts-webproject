@@ -26,11 +26,8 @@ function buildWeather(temp, wind, description) {
     const city = document.querySelector(".city").value;
     const firstName = document.querySelector(".userName").value;
 
-
-
-    document.querySelector('.forcast').innerHTML = `Hi ${firstName}! Currently, in ${city}, it is ${description.toLowerCase()} and ${tempF}. The wind speed is ${wind}.`;
-
-
-
-
+    let forcastDiv = document.getElementById('forcast');
+    let forcastP = forcastDiv.querySelector('p');
+    forcastP.innerText = `Hi ${firstName}! Currently, in ${city}, it is ${description.toLowerCase()} and ${tempF}. The wind speed is ${wind}.`;
+    forcastDiv.classList.remove('hide');
 }
