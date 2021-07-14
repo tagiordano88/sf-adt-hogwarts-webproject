@@ -85,13 +85,14 @@
             margin: auto;
             display: block;
         }
-
+        
         .UserFav {
             background-color: #04AA6D;
             color: white;
         }
-
-        input[type=text], select {
+        
+        input[type=text],
+        select {
             width: 75%;
             padding: 12px 20px;
             margin: 5px 0;
@@ -101,13 +102,13 @@
             box-sizing: border-box;
             text-align: center;
         }
-          
+        
         form {
             border-radius: 5px;
             background-color: #f2f2f2;
             padding: 10px;
         }
-
+        
         button[type=submit] {
             width: 50%;
             background-color: #04AA6D;
@@ -118,7 +119,7 @@
             border-radius: 4px;
             cursor: pointer;
         }
-          
+        
         button[type=submit]:hover {
             background-color: #45a049;
         }
