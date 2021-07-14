@@ -1,8 +1,15 @@
 .lori-header {
     margin-top: 10px;
-    text-align: center;
+    text-align: left;
     font-family: Georgia, serif;
     font-size: 25px;
+}
+
+.lori-nav {
+    margin-top: 5px;
+    text-align: left;
+    font-family: Georgia, serif;
+    font-size: 15px;
 }
 
 .title {
@@ -77,5 +84,9 @@ div.gallery img {
 
 div.desc {
     padding: 15px;
+    text-align: center;
+}
+
+.player {
     text-align: center;
 }

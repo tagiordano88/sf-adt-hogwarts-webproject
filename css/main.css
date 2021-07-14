@@ -34,9 +34,10 @@
         }
         
         .container {
-            position: relative;
+            position: middle;
             text-align: center;
             color: white;
+            text-shadow: maroon 0px 0px 15px;
         }
         
         .centered {
