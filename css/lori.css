@@ -1,0 +1,83 @@
+.lori-header {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 10px;
+}
+
+.title {
+    background: none;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 30px;
+}
+
+.mypics {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.mycontainer {
+    position: relative;
+}
+
+.text-display-bottomleft {
+    position: absolute;
+    color: white;
+    left: 0;
+    bottom: 0;
+    padding: 8px 16px!important;
+    margin-bottom: 16px!important;
+}
+
+#test {
+    background-image: url("../img/scroll_over.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: scroll;
+}
+
+
+/* Create three equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*gallery */
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
