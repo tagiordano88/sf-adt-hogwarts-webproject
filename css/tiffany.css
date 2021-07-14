@@ -24,3 +24,14 @@ section ul li:before {
         font-size:2em;
         line-height:0;
     }
+
+.box{
+        display: none;
+        width: 100%;
+    }
+    
+a:hover + .box,.box:hover{
+        display: block;
+        position: relative;
+        z-index: 100;
+    }
