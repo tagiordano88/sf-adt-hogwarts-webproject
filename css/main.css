@@ -151,20 +151,20 @@
             border-style: outset;
             border-color: lightslategray;
             border-width: 5px;
-            padding: 25px 40px;
+            padding: 25px 35px;
             word-wrap: break-word;
-            width: 1055px;
-            position: absolute;
+            margin: auto;
             top: 55;
             font-size: 18px;
             color: #f6f7f7;
             text-shadow: black 0 0 15px;
-            margin-left: 370px;
+            margin-top: 15px;
+            width: 65%;
         }
         
         .ws-img {
-            margin-top: 215px;
-            margin-bottom: -200px;
+            margin: auto;
+            padding-top: 15px;
         }
         
         .mimg {
