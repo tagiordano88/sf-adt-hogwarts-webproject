@@ -14,7 +14,7 @@
         margin-bottom: 10px;
         text-align: center;
         font-size: 50px;
-        text-shadow: 2.5px 4px 0px rgba(211, 211, 211, .75);
+        text-shadow: 2.5px 4px 0px rgba(255, 250, 250, .95);
     }
     
     .lnav {
@@ -29,7 +29,7 @@
         color: rgb(255, 250, 250);
         text-shadow: black 0 0 10px;
         background-color: maroon;
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 5px 5px 15px 5px #000000;
         text-align: center;
         position: relative;
     }
@@ -51,7 +51,7 @@
     
     .row,
     .row>.column {
-        padding: 8px;
+        padding: 10px;
     }
     /* Create four equal columns that floats next to each other */
     
@@ -69,8 +69,35 @@
     /* Content */
     
     .content {
-        background-color: white;
+        background-image: url(/img/imageBackground.jpg);
         padding: 10px;
+        height: 500px;
+        border: 2px solid #c1946a;
+        box-shadow: 5px 5px 15px 5px #000000;
+    }
+    
+    .limg1 {
+        width: 100%;
+        height: 72%;
+        border: 5px inset #c1946a;
+    }
+    
+    .limg2 {
+        width: 100%;
+        height: 72%;
+        border: 5px inset #c1946a;
+    }
+    
+    .limg3 {
+        width: 100%;
+        height: 72%;
+        border: 5px inset #c1946a;
+    }
+    
+    .limg4 {
+        width: 100%;
+        height: 72%;
+        border: 5px inset #c1946a;
     }
     /* Responsive layout - makes a two column-layout instead of four columns */
     
