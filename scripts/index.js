@@ -14,8 +14,8 @@ function startTimer() {
 
 var images = [],
     x = -1;
-images[0] = "../img/rana-sawalha-W_-6PWGbYaU-unsplash.jpg";
-images[1] = "../img/sunrise.jpg";
-images[2] = "../img/world.jpg";
-images[3] = "../img/journal.jpg";
-images[4] = "../img/sunset.jpg";
+images[0] = "img/rana-sawalha-W_-6PWGbYaU-unsplash.jpg";
+images[1] = "img/sunrise.jpg";
+images[2] = "img/world.jpg";
+images[3] = "img/journal.jpg";
+images[4] = "img/sunset.jpg";
