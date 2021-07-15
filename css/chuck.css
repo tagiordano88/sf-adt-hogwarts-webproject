@@ -15,13 +15,14 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    text-shadow: maroon 0px 0px 15px;
 }
 
 * {
     box-sizing: border-box;
 }
 
-body {
+.main {
     background-color: #f1f1f1;
     padding: 20px;
     font-family: Arial;
@@ -29,9 +30,10 @@ body {
 
 /* Center website */
 
-.main {
+/* .main {
     max-width: 1000px;
-    margin: auto;
+    margin: auto; */
+
 }
 
 h1 {
