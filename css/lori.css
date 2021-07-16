@@ -5,7 +5,7 @@
     
     .main {
         font-family: Georgia, serif;
-        background-image: url(/img/loribackground.jpg);
+        background-image: url(../img/loribackground.jpg);
         background-size: contain;
     }
     
@@ -70,7 +70,7 @@
     /* Content */
     
     .content {
-        background-image: url(/img/imageBackground.jpg);
+        background-image: url(../img/imageBackground.jpg);
         padding: 10px;
         height: 500px;
         border: 2px solid #c1946a;
